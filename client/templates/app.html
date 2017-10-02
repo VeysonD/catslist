@@ -1,0 +1,8 @@
+<div>
+  <button type="button" id="button1" class="button" ng-click="$ctrl.handleRenderBorrow()">Borrow a Cat</button>
+  <button type="button" id="button2" class="button" ng-click="$ctrl.handleRenderLend()">Lend a Cat</button>
+  <!--  {{$ctrl.cats}}  -->
+</div>
+<borrow-cat cats="$ctrl.cats" ng-if="$ctrl.showBorrow"></borrow-cat>
+
+<lend-cat ng-if="$ctrl.showLend"></lend-cat>

@@ -1,0 +1,100 @@
+.heading {
+  text-align: center;
+  font-size: 32px;
+}
+
+.cat-entry {
+  float: left;
+  width: 500px;
+  margin: auto;
+  background: #66ffcc;
+  padding: 20px;
+  border: 5px;
+  border-style: double;
+}
+
+.cat-picture {
+
+}
+
+.cat-name {
+  text-align: left;
+  display: inline;
+}
+
+.cat-message {
+  text-align: right;
+}
+
+.cat-email {
+  text-align: right;
+  float: right;
+  display: inline;
+}
+.lend-name {
+  float: left;
+  display: inline;
+}
+
+.lend-email {
+  float: right;
+  display: inline;
+}
+
+.lend-url {
+  padding: 10px;
+}
+
+.lend-message {
+  padding: 10px;
+}
+
+.url-text {
+  width: 550px;
+}
+
+.url-label {
+  text-align: left;
+}
+
+.bonus {
+  text-align: left;
+}
+
+.adopt-box {
+  text-align: center;
+  width: 550px;
+  height: 200px;
+}
+
+#lend-a-cat {
+  text-align: center;
+  font-size: 24px;
+}
+#lendForm {
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  padding: 20px;
+  border: 5px;
+  border-style: double;
+}
+
+#fname {
+}
+
+#femail {
+}
+
+#furl {
+
+}
+
+#fadopt {
+
+}
+
+#button3 {
+  float: right;
+  margin-bottom: 20px;
+}

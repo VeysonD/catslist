@@ -1,0 +1,6 @@
+<div class="cat-entry" ng-click="$ctrl.handleClick()">
+  <div class="cat-image" ng-if="!!$ctrl.image"><img src={{$ctrl.cat.image}} height="80" width="80" align="left"></div>
+  <div class="cat-name">{{$ctrl.cat.name}}</div>
+  <div class="cat-email" ng-if="$ctrl.email" href="#">{{$ctrl.cat.owner}}</div>
+  <div class="cat-description">{{$ctrl.cat.description}}</div>
+</div>

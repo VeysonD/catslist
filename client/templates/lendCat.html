@@ -1,0 +1,22 @@
+<div id="lend-a-cat">List a cat to lend
+</div>
+  <form id="lendForm">
+    <div class="lend-name">
+      <label for="fname">Name</label>
+      <input id="fname" ng-model="$ctrl.catInfo.name" name="catname" placeholder="Name of your cat" type="text">
+    </div class="lend-email">
+      <label for="femail">Owner's Email</label>
+      <input id="femail"  ng-model="$ctrl.catInfo.owner" name="oemail" placeholder="Your email" type="text">
+    <div class="lend-url">
+      <label for="furl">Image url</label>
+      <input id="furl" class="url-text" ng-model="$ctrl.catInfo.image" name="imageurl" placeholder="Link a picture of your cat" type="text">
+      <div class="bonus">
+        <i>A good image increases borrow chances by 500%</i>
+      </div>
+    </div>
+    <div class="lend-message">
+      <label for="fadopt">Adoption message</label>
+      <input id="fadopt" class="adopt-box" ng-model="$ctrl.catInfo.description" name="adoptmessage" placeholder="Enter a message" type="text">
+    </div>
+    <button type="button" id="button3" class="button3" ng-click="$ctrl.handleSubmit()">Add a cat</button>
+  </form>
